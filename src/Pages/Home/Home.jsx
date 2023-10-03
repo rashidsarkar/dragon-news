@@ -1,3 +1,4 @@
+import BrakingNews from "../../Components/BrakingNews/BrakingNews";
 import RightSideNav from "../../Components/RightSideNav/RightSideNav";
 import Header from "../../Components/Shared/Header/Header";
 import Navbar from "../../Components/Shared/Header/Navbar";
@@ -7,6 +8,7 @@ function Home() {
   return (
     <div className="font-poppins">
       <Header></Header>
+      <BrakingNews></BrakingNews>
       <Navbar></Navbar>
 
       <div className="grid grid-cols-1 gap-6 md:grid-cols-4">
